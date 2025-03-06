@@ -1,0 +1,55 @@
+{"intents": [
+        {"tag": "Greeting",
+         "patterns": ["Hi",  "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello,My name is Parag,How may i assist you today?", "I am Fine ,Thankyou", "Yes I am Here ","Hello,My name is Parag,How may i assist you today?","Same to You"],
+         "context_set": ""
+        },
+        {"tag": "Goodbye",
+         "patterns": ["Goodbye", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!,I hope i assisted you today","Nice assisting you today","You too have a Goodday"],
+         "context_set": ""
+        },
+        {"tag": "order",
+         "patterns": ["i would like to order", "Place a order", "order food", "order lunch", "order dinner?"],
+         "responses": ["Great,would you like to order veg or non-veg or both ?"],
+         "context_set": ""
+        },
+        {"tag": "Veg Menu",
+         "patterns": ["what dishes/sabzi in veg ","Dishes-veg"],
+         "responses": ["We have 1.Panner tikka masala,2.Khadhai panner,3.malaikofta,4.palakpanner"],
+         "context_set": ""
+        },
+        {"tag": " Non veg Menu",
+         "patterns": ["what dishes/sabzi in veg","Dishes-nonveg"],
+         "responses": ["We have 1.Chicken tikka masala,2.Khadhai Mutton,3.Malaimutton,4.Chicken Tandoori"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        },
+        {"tag": " Non Veg Soups",
+         "patterns": [" Which nonveg Soups you have?","soups in nonveg"],
+         "responses": ["We have chicken/mutton soups"],
+         "context_set": ""
+        },
+        {"tag": " Veg Soups",
+         "patterns": [" Which Veg Soups you have?","soups in veg"],
+         "responses": ["We have Tomato/sweetkorn soups"],
+         "context_set": ""
+        },
+
+        {"tag": " Delivery time",
+         "patterns": ["How long will the delivery take?","when will i receive the order?","time"],
+         "responses": ["We will delivery the order in 45 minutes"],
+         "context_set": ""
+        },
+
+        {"tag": "  website",
+         "patterns": [" website to book","website","What is your website?"],
+         "responses": ["Please place your order by visiting our website www.swiggy.com"],
+         "context_set": ""
+        }
+   ]
+}
