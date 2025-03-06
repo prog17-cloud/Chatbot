@@ -149,11 +149,7 @@ soupsieve==2.6
 sqlparse==0.5.3
 stack-data==0.6.3
 streamlit==1.42.2
-tenacity==9.0.0
-tensorboard==2.16.2
-tensorboard-data-server==0.7.2
-tensorflow==2.16.0rc0
-tensorflow-intel==2.16.0rc0
+
 termcolor==2.5.0
 terminado==0.18.1
 threadpoolctl==3.5.0
